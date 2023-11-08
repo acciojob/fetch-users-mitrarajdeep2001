@@ -1,1 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-inline: 50px;
+}
+
+.btn{
+    background-color: rgba(5, 102, 102, 0.718);
+    /* height: 30px; */
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+}
+#table{
+    width: 100%;
+}
+
+.table-head-row{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #000;
+    color: #fff;
+    padding: 30px 20px;
+    width: 100%;
+}
